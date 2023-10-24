@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+}
+h1 {
+    color: #ffffff;
+}
+.card-main {
+    padding-top: 700px;
+    padding-bottom: 50px;
+}
+.img-hd {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(0.9);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
