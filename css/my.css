@@ -59,11 +59,59 @@ header {
     margin: 1.2rem 1.2rem;
 }
 
-
 footer {
-    border-top: 1px solid black;
-    background: #581111;
-    color: #ffffff;
+    background-color: #011826;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px 50px 30px;
+}
+
+.socialIcons a {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/*  hover Effects on social media */
+.socialIcons a:hover {
+    background-color: #011826;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-copyright {
+    background-color: #011826;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
 
 /* for larger screens */
