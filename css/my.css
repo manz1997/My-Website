@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-image: url(/My-Website/images/header-1900_x_1080.jpeg);
+    background-image: url(/My-Website/images/header-758_x_700.jpeg);
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     object-fit: cover;
@@ -23,11 +24,12 @@ header {
     padding-bottom: 5rem;
 }
 
-h1 {
+.head-one {
     color: #ffffff;
     padding-top: 250px;
     font-weight: 500;
-    text-shadow: 2px 1px #000000;
+    font-size: 2.5rem;
+    margin-left: 3rem;
 }
 
 
@@ -35,4 +37,15 @@ footer {
     border-top: 1px solid black;
     background: #581111;
     color: #ffffff;
+}
+
+/* for larger screens */
+@media only screen and (min-width: 758px) {
+    .head-one {
+        font-size: 4.5rem;
+    }
+
+    header {
+        background-image: url(/My-Website/images/header-2200_x_1080.jpeg);
+    }
 }
