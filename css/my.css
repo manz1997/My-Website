@@ -3,6 +3,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.nav {
+    animation: fade-down 0.5s;
+}
+
 header {
     background-image: url(/My-Website/images/header-800_x_750.jpeg);
     background-repeat: no-repeat;
@@ -16,8 +20,31 @@ header {
 }
 
 /* section {
-    display: block;
+    display: block; 
 } */
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
 
 .head-one {
     color: #ffffff;
@@ -25,6 +52,7 @@ header {
     font-weight: 500;
     font-size: 2.5rem;
     margin-left: 2rem;
+    animation: fade-up 0.5s;
 }
 
 .p-2 {
