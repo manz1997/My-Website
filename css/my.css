@@ -7,7 +7,7 @@ body {
     animation: fade-down 0.5s;
 }
 
-header {
+.home-header {
     background-image: url(/My-Website/images/header-800_x_750.jpeg);
     background-repeat: no-repeat;
     height: 100vh;
@@ -19,9 +19,6 @@ header {
     z-index: -1;
 }
 
-/* section {
-    display: block; 
-} */
 @keyframes fade-up {
     0% {
         opacity: 0;
@@ -114,6 +111,40 @@ footer {
     margin: 0px 5px;
 }
 
+/*  styles for the Web Development page */
+
+.bd-web {
+    background-color: #011826;
+}
+
+.h1-web {
+    color: #A62145;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/*  styles for the photography page */
+
+.bd-photo {
+    background-color: #011826;
+
+}
+
+.h1-photo {
+    color: #A62145;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* section {
+    display: block; 
+} */
+
+
+
+
 /* for larger screens */
 @media only screen and (min-width: 758px) {
     .head-one {
@@ -121,7 +152,7 @@ footer {
         margin-left: 3rem;
     }
 
-    header {
+    .home-header {
         background-image: url(/My-Website/images/header-2200_x_1080.jpeg);
     }
 
