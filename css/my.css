@@ -124,6 +124,15 @@ footer {
     margin-top: 2rem;
 }
 
+.pro p {
+    color: #D56861;
+}
+
+.btn {
+    background-color: #D56861;
+    color: white;
+}
+
 /*  styles for the photography page */
 
 .bd-photo {
@@ -137,6 +146,14 @@ footer {
     justify-content: center;
     margin-top: 2rem;
 }
+
+.header-b {
+    color: #A62145;
+    padding-left: 1rem;
+    text-shadow: 2px 2px #0000;
+
+}
+
 
 /* section {
     display: block; 
